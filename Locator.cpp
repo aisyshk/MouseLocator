@@ -11,8 +11,7 @@ int main()
 		POINT mouse;
 		GetCursorPos(&mouse);
 
-		std::cout << "Mouse X: " << mouse.x << " Mouse Y: " << mouse.y << "\n";
-
-		Sleep(5);
+		std::cout << "[Mouse X : Y] " << mouse.x << " : " << mouse.y << std::endl;
+		Sleep(2);
 	}
 }
